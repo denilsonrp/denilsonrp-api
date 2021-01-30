@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_skills",
+  "info": {
+    "name": "skill",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

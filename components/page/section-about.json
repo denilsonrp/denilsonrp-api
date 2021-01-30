@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_section_abouts",
+  "info": {
+    "name": "sectionAbout",
+    "icon": "info-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.link"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

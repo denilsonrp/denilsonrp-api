@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_section_experiences",
+  "info": {
+    "name": "sectionExperiences",
+    "icon": "dice-two"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.experience"
+    }
+  }
+}

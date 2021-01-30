@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_section_educations",
+  "info": {
+    "name": "sectionEducation",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.education"
+    }
+  }
+}

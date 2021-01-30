@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_educations",
+  "info": {
+    "name": "education",
+    "icon": "book-medical"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

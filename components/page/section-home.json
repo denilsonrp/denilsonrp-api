@@ -1,12 +1,13 @@
 {
   "collectionName": "components_page_section_homes",
   "info": {
-    "name": "SectionHome",
-    "icon": "home"
+    "name": "sectionHome",
+    "icon": "home",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Image": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -15,8 +16,12 @@
       "plugin": "upload",
       "required": true
     },
-    "Presentation": {
-      "type": "richtext",
+    "presentationH1": {
+      "type": "string",
+      "required": true
+    },
+    "presentationH2": {
+      "type": "string",
       "required": true
     }
   }

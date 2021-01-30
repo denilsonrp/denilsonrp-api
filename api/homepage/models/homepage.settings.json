@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "homepages",
   "info": {
-    "name": "homepage"
+    "name": "homepage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,10 +11,40 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "SectionHome": {
+    "sectionHome": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-home"
+    },
+    "sectionAbout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about"
+    },
+    "sectionExperiences": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-experiences"
+    },
+    "sectionEducation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-education"
+    },
+    "sectionSkills": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-skills"
+    },
+    "sectionContact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-contact"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.social-links"
     }
   }
 }
