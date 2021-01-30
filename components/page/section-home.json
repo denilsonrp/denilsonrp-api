@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_section_homes",
+  "info": {
+    "name": "SectionHome",
+    "icon": "home"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "Presentation": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
