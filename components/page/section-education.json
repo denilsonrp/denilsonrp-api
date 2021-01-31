@@ -1,8 +1,9 @@
 {
   "collectionName": "components_page_section_educations",
   "info": {
-    "name": "sectionEducation",
-    "icon": "book"
+    "name": "sectionAcademicFormations",
+    "icon": "book",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,7 +11,7 @@
       "type": "string",
       "required": true
     },
-    "education": {
+    "formations": {
       "type": "component",
       "repeatable": true,
       "component": "page.education"

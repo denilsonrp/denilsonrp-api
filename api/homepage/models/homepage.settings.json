@@ -21,17 +21,17 @@
       "repeatable": false,
       "component": "page.section-about"
     },
-    "sectionExperiences": {
+    "sectionProfessionalExperiences": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-experiences"
     },
-    "sectionEducation": {
+    "sectionAcademicFormations": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-education"
     },
-    "sectionSkills": {
+    "sectionTechSkills": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-skills"
